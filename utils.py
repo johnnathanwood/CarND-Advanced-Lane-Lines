@@ -37,7 +37,7 @@ def to_lab(img):
     Returns the same image in LAB format
     Th input image must be in RGB format
     """
-    return cv2.cvtColor(img, cv2.COLOR_RGB2LAB)
+    return cv2.cvtColor(img, cv2.COLOR_RGB2LAB  )
 
 
 ##############################################################################
